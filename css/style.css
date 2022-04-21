@@ -70,3 +70,7 @@ margin: 12px 0px;
 nav ul {
   display: flex;
 }
+
+#social-links {
+  display: flex;
+}
