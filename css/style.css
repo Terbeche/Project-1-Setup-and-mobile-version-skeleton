@@ -1,37 +1,40 @@
 body {
-  background-color: #000000;
+  background-color: #000;
 }
 
 h1 {
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-text-align: center;
-
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  text-align: center;
 }
 
 h3 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #FFF5E1;
-text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  text-align: center;
 }
 
 p {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 nav ul {
@@ -40,19 +43,11 @@ nav ul {
   justify-content: space-between;
 }
 
-
-ul {
-    list-style-type: none;
-}
-
 #social-links {
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-
 
 div ul {
   flex-basis: 400px;
