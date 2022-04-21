@@ -66,3 +66,7 @@ order: 2;
 flex-grow: 0;
 margin: 12px 0px;
 }
+
+nav ul {
+  display: flex;
+}
