@@ -4,7 +4,7 @@
 
 >We are building the first 2 sections of the mobile website using a predefined figma template .
 Here is what the page web looks like:
-![alt text](../images/portfolio.png)
+![alt text](https://raw.githubusercontent.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/settting-up-the-first-2-sections/images/portfolio.PNG)
 
 ## Built With
 
