@@ -35,25 +35,19 @@ ul {
 }
 
 body {
-    display: flex;
-    justify-content: space-between;
-}
-
-}
-nav ul {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
-
-#social-links {
+header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+section {
+  display: flex;
 }
 
 div ul {
-  flex-basis: 400px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
