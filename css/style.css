@@ -3,87 +3,60 @@ body {
 }
 
 h1 {
-  font-family: 'Crete Round';
+font-family: 'Crete Round';
 font-style: normal;
 font-weight: 400;
 font-size: 56px;
 line-height: 64px;
 letter-spacing: 0.37px;
 color: #FF6B00;
+text-align: center;
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 12px 0px;
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 12px 0px;
 }
 
 h3 {
-  position: static;
-width: 327px;
-height: 27px;
-left: 24px;
-top: 256px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
-
-display: flex;
-align-items: center;
-
 color: #FFF5E1;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 12px 0px;
+text-align: center;
 }
 
 p {
-
-  position: static;
-width: 327px;
-height: 123px;
-left: 24px;
-top: 295px;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-
 color: #FFFFFF;
-
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 12px 0px;
+text-align: center;
 }
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
-  border: 10px solid blue;
-}
-
-#social-links {
-  display: flex;
-  flex-wrap: wrap;
-  border: 10px solid blue;
 }
 
 
 ul {
     list-style-type: none;
+}
+
+#social-links {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+div ul {
+  flex-basis: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
