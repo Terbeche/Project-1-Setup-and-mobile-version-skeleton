@@ -37,6 +37,8 @@ p {
 
 ul {
   list-style-type: none;
+  gap: 20px;
+padding: 1px;
 }
 
 div ul {
