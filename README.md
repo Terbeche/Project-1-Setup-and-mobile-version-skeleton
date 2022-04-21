@@ -3,6 +3,9 @@
 > This is the project of day03/week01/module01
 
 >We are building the first 2 sections of the mobile website using a predefined figma template .
+Here is what the page web looks like
+![alt text](images/porfolio.png)
+
 ## Built With
 
 - HTML5 & CSS3
