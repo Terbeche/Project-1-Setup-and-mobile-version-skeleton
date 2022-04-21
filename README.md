@@ -4,7 +4,7 @@
 
 >We are building the first 2 sections of the mobile website using a predefined figma template .
 Here is what the page web looks like:
-![alt text](../images/porfolio.png)
+![alt text](../images/portfolio.png)
 
 ## Built With
 
