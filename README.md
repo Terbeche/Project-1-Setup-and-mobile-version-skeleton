@@ -2,7 +2,7 @@
 
 > This is the project of day03/week01/module01
 
->we are building the first 2 sections of the mobile website using a predefined template .
+>We are building the first 2 sections of the mobile website using a predefined figma template .
 ## Built With
 
 - HTML5 & CSS3
