@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+
 body {
   background-color: #000;
   display: flex;
@@ -38,7 +37,7 @@ p {
 ul {
   list-style-type: none;
   gap: 20px;
-padding: 1px;
+  padding: 1px;
 }
 
 div ul {
@@ -48,11 +47,12 @@ div ul {
 header {
   background-color: #222;
 }
+
 header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
- padding: 10px;
+  padding: 10px;
 }
 
 section {
