@@ -70,8 +70,30 @@ margin: 12px 0px;
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  border: 10px solid blue;
 }
 
 #social-links {
   display: flex;
+  flex-wrap: wrap;
+  border: 10px solid blue;
+}
+
+nav ul li {
+  flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#logo {
+    flex-grow: 20;
+}
+
+#menu {
+    flex-grow: 1;
 }
