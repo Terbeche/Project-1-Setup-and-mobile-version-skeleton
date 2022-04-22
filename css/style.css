@@ -71,28 +71,27 @@ header nav ul {
   padding: 10px;
 }
 
-button:enabled{
-background: #F55800;
-color: #FFFFFF;
+button:enabled {
+  background: #f55800;
+  color: #fff;
 }
+
 button:hover {
-color: #F55800;
-background: #FFF5E1;
-border: 1px solid #F55800;
-box-sizing: border-box;
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
 }
 
-button:active{
-background: #E05304;
-color: #F4F1F0;
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
-button:disabled{
-  color: #5B5957;
-  background: #F4F1F0;
-
+button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
 }
-
 
 #work {
   display: grid;
