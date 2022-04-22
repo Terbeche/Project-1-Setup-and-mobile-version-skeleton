@@ -62,3 +62,8 @@ header nav ul {
 section {
   display: flex;
 }
+
+#work {
+  display: grid;
+  grid-template:  1fr 15% 15% 15% 15% 15% /100%;
+}
