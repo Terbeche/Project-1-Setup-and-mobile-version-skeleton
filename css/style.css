@@ -187,6 +187,23 @@ margin: 20px 0;
 padding-left: 10px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 43px;
+color: #FFFFFF;
+
+}
+
+
 
 .skills {
   display: flex;
