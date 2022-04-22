@@ -9,6 +9,11 @@ body {
   flex-direction: column;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #start {
   background-color: #000;
   margin-bottom: 80px;
