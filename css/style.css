@@ -232,8 +232,23 @@ color: #FFFFFF;
 hr {
   width: 70%;
   margin: 0 15% 20px 15%;
+}
+
+#language {
+  list-style-image: url('images/Rectangle01.png');;
 
 }
+
+#framework {
+  list-style-image: url('images/Rectangle02.png');;
+
+}
+
+#skill {
+  list-style-image: url('images/Rectangle03.png');;
+
+}
+
 
 
 
