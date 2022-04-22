@@ -127,3 +127,9 @@ color: #FFFFFF;
 background: rgba(255, 255, 255, 0.24);
 margin: 10px;
 }
+
+
+
+.skills {
+  display: flex;
+}
