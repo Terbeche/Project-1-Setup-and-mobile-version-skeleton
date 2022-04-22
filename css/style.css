@@ -71,24 +71,24 @@ header nav ul {
   padding: 10px;
 }
 
-button:enabled {
+.project-button:enabled {
   background: #f55800;
   color: #fff;
 }
 
-button:hover {
+.project-button:hover {
   color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
 }
 
-button:active {
+.project-button:active {
   background: #e05304;
   color: #f4f1f0;
 }
 
-button:disabled {
+.project-button:disabled {
   color: #5b5957;
   background: #f4f1f0;
 }
