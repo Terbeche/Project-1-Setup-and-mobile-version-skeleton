@@ -128,6 +128,18 @@ background: rgba(255, 255, 255, 0.24);
 margin: 10px;
 }
 
+.project-button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #FF6B00;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 .skills {
