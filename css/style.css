@@ -204,6 +204,21 @@ color: #FFFFFF;
 }
 
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+#skills ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
 
 .skills {
   display: flex;
