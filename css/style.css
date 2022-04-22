@@ -147,6 +147,13 @@ margin: 10px;
   margin: 10px;
 }
 
+#item2, #item3, #item4, #item5, #item6  {
+  background-image: url("images/card-Placeholder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 .skills {
   display: flex;
