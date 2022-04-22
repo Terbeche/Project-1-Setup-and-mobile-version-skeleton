@@ -176,6 +176,17 @@ color: #F4F5F7;
 }
 
 
+.about-title {
+font-family: 'InaiMathi';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+margin: 20px 0;
+padding-left: 10px;
+}
+
 
 .skills {
   display: flex;
