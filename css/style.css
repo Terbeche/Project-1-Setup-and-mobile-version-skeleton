@@ -139,14 +139,20 @@ margin: 10px;
   color: #FFFFFF;
   background: #FF6B00;
   width: 100%;
-  height: 100%;
+  height: 10%;
+  padding: 3px;
 }
 
+#first-project-button {
+  width: 35%;
+}
 .item {
   display: flex;
   border: 5px;
-  flex-direction: column;
+ flex-direction: column;
   margin: 10px;
+  justify-content: flex-end;
+
 }
 
 #item2, #item3, #item4, #item5, #item6  {
