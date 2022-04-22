@@ -10,7 +10,6 @@ body {
 }
 #start {
   background-color: #000;
-
 }
 
 h1 {
@@ -190,13 +189,13 @@ margin: 20px 0;
 padding-left: 10px;
 }
 
-ul {
+#skills ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul li {
+#skills ul li {
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
