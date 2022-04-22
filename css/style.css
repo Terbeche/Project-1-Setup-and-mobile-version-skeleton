@@ -161,6 +161,21 @@ margin: 10px;
 
 }
 
+#about-title {
+  font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 88px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+}
+
+#about-description {
+color: #F4F5F7;
+}
+
+
 
 .skills {
   display: flex;
