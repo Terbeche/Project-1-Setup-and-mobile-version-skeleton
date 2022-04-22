@@ -140,6 +140,12 @@ margin: 10px;
   height: 100%;
 }
 
+.item {
+  display: flex;
+  border: 5px;
+  flex-direction: column;
+  margin: 10px;
+}
 
 
 .skills {
