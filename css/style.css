@@ -10,6 +10,7 @@ body {
 }
 #start {
   background-color: #000;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -150,7 +151,7 @@ margin: 10px;
 }
 
 #item2, #item3, #item4, #item5, #item6  {
-  background-image: url("images/card-Placeholder.png");
+  background-image: url("../images/card-Placeholder.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -189,13 +190,13 @@ margin: 20px 0;
 padding-left: 10px;
 }
 
-#skills ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#skills ul li {
+ul li {
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -237,17 +238,17 @@ hr {
 }
 
 #language {
-  list-style-image: url('images/Rectangle01.png');;
+  list-style-image: url('../images/Rectangle01.png');;
 
 }
 
 #framework {
-  list-style-image: url('images/Rectangle02.png');;
+  list-style-image: url('../images/Rectangle02.png');;
 
 }
 
 #skill {
-  list-style-image: url('images/Rectangle03.png');;
+  list-style-image: url('../images/Rectangle03.png');;
 
 }
 
