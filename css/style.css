@@ -299,10 +299,10 @@ text-align: center;
 color: #172B4D;
 }
 
-form {
+fieldset {
   display: flex;
   flex-direction: column;
-
+border: none;
   padding: 2em;
 }
 input {
