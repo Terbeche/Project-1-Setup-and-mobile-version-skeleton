@@ -320,7 +320,6 @@ input {
   border-left: none;
   border-right: none;
   padding: 1rem;
-
 }
 
 textarea {
@@ -329,18 +328,16 @@ textarea {
   border: none;
   padding: 1rem;
   margin: 1rem 0;
-
 }
 
 .fab {
-
   color: #505f79;
 }
 
 #social-links {
   display: flex;
-   justify-content: center;
-   margin-top: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 #footer-hr {
@@ -349,7 +346,6 @@ textarea {
   border: 1px solid #eee;
   background-color: #eee;
 }
-
 
 #contact-button {
   padding: 0.5rem;
