@@ -348,5 +348,6 @@ textarea {
 }
 
 #contact-button {
-  padding: 0.5rem;
+  padding: 1rem;
+  border: none;
 }
