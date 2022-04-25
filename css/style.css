@@ -250,7 +250,7 @@ ul li {
   align-items: center;
 }
 
-#resume-button {
+.resume-button {
   width: auto;
   height: auto;
   margin: 10px;
@@ -264,6 +264,15 @@ ul li {
 hr {
   width: 70%;
   margin: 0 15% 20px 15%;
+}
+
+#end {
+  border: 1px solid black;
+  width: 33.33%;
+  height: 5px;
+  margin: 0 33.33% 20px 33.33%;
+  background-color: black;
+  border-radius: 15%;
 }
 
 #language {
@@ -280,4 +289,65 @@ hr {
 
 .skills {
   display: flex;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.contact p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding: 0.5em;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 2em;
+}
+
+input {
+  margin: 1rem 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 1rem;
+}
+
+textarea {
+  width: 100%;
+  background: #fbf8f7;
+  border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.fab {
+  color: #505f79;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#footer-hr {
+  width: 100%;
+  margin: 7rem 0 0 0;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+
+#contact-button {
+  padding: 1rem;
+  border: none;
 }
