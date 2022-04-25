@@ -296,6 +296,24 @@ line-height: 44px;
 
 text-align: center;
 
-
 color: #172B4D;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2em;
+}
+input {
+  margin:  2em 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+textarea {
+  width: 100%;
+  background: #FBF8F7;
+border: none;
 }
