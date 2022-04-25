@@ -281,3 +281,21 @@ hr {
 .skills {
   display: flex;
 }
+
+.contact{
+  text-align: center;
+background-color: white;
+}
+
+.contact p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+
+text-align: center;
+
+
+color: #172B4D;
+}
