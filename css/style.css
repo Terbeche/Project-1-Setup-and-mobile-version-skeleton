@@ -250,7 +250,7 @@ ul li {
   align-items: center;
 }
 
-#resume-button {
+.resume-button {
   width: auto;
   height: auto;
   margin: 10px;
@@ -264,20 +264,15 @@ ul li {
 hr {
   width: 70%;
   margin: 0 15% 20px 15%;
-
 }
 
 #end {
-
-  border-top: 1px solid black;
-   width: 33.33%;
-   height: 5px;
+  border: 1px solid black;
+  width: 33.33%;
+  height: 5px;
   margin: 0 33.33% 20px 33.33%;
-border: none;
-color: black;
-border-top: 1px solid black;
-     padding: 0;
-     background-color: black;
+  background-color: black;
+  border-radius: 15%;
 }
 
 #language {
@@ -288,7 +283,6 @@ border-top: 1px solid black;
   list-style-image: url('../images/Rectangle02.png');
 }
 
-
 #skill {
   list-style-image: url('../images/Rectangle03.png');
 }
@@ -297,31 +291,31 @@ border-top: 1px solid black;
   display: flex;
 }
 
-.contact{
+.contact {
   text-align: center;
-margin-top: 5em;
+  margin-top: 5em;
 }
 
 .contact p {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #172B4D;
-padding: 0.5em;
-
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding: 0.5em;
 }
 
 fieldset {
   display: flex;
   flex-direction: column;
-border: none;
+  border: none;
   padding: 2em;
 }
+
 input {
-  margin:  2em 0;
+  margin: 2em 0;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -329,22 +323,20 @@ input {
 
 textarea {
   width: 100%;
-  background: #FBF8F7;
-border: none;
-pa
+  background: #fbf8f7;
+  border: none;
 }
-
 
 .fab {
   height: 50px;
-width: 50px;
+  width: 50px;
 
-    /* background-color: #505F79; */
-    color:#505F79;
+  /* background-color: #505F79; */
+  color: #505f79;
 }
 
 #social-links {
   display: flex;
-justify-content: center; 
-margin-top: 5em;
+  justify-content: center;
+  margin-top: 7em;
 }
