@@ -315,26 +315,42 @@ fieldset {
 }
 
 input {
-  margin: 2em 0;
+  margin: 1rem 0;
   border-top: none;
   border-left: none;
   border-right: none;
+  padding: 1rem;
+
 }
 
 textarea {
   width: 100%;
   background: #fbf8f7;
   border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+
 }
 
 .fab {
-  height: 50px;
-  width: 50px;
+
   color: #505f79;
 }
 
 #social-links {
   display: flex;
-  justify-content: center;
-  margin-top: 7em;
+   justify-content: center;
+   margin-top: 1rem;
+}
+
+#footer-hr {
+  width: 100%;
+  margin: 7rem 0 0 0;
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+
+
+#contact-button {
+  padding: 0.5rem;
 }
