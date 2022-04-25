@@ -264,6 +264,20 @@ ul li {
 hr {
   width: 70%;
   margin: 0 15% 20px 15%;
+
+}
+
+#end {
+
+  border-top: 1px solid black;
+   width: 33.33%;
+   height: 5px;
+  margin: 0 33.33% 20px 33.33%;
+border: none;
+color: black;
+border-top: 1px solid black;
+     padding: 0;
+     background-color: black;
 }
 
 #language {
@@ -273,6 +287,7 @@ hr {
 #framework {
   list-style-image: url('../images/Rectangle02.png');
 }
+
 
 #skill {
   list-style-image: url('../images/Rectangle03.png');
@@ -284,7 +299,7 @@ hr {
 
 .contact{
   text-align: center;
-background-color: white;
+margin-top: 5em;
 }
 
 .contact p {
@@ -293,10 +308,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 44px;
-
 text-align: center;
-
 color: #172B4D;
+padding: 0.5em;
+
 }
 
 fieldset {
@@ -316,7 +331,20 @@ textarea {
   width: 100%;
   background: #FBF8F7;
 border: none;
+pa
 }
+
+
 .fab {
-  color: black;
+  height: 50px;
+width: 50px;
+
+    /* background-color: #505F79; */
+    color:#505F79;
+}
+
+#social-links {
+  display: flex;
+justify-content: center; 
+margin-top: 5em;
 }
