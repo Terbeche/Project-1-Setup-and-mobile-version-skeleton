@@ -292,7 +292,7 @@ hr {
 }
 
 .contact {
-  text-align: center;
+   text-align: center;
   margin-top: 5em;
 }
 
@@ -302,7 +302,6 @@ hr {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  text-align: center;
   color: #172b4d;
   padding: 0.5em;
 }
@@ -410,5 +409,35 @@ textarea {
   hr {
     width: 80%;
     margin: 5rem 7rem ;
+  }
+
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+  .contact p {
+    margin-left: 15rem;
+
+  }
+
+  .contact-description,.contact-form {
+    flex: 1;
+  }
+
+
+#social-links {
+  justify-content:flex-start;
+  margin-left: 3rem;
+}
+
+#contact-button {
+  margin-left: 3rem;
+}
+  #end {
+    display: none;
+  }
+
+  input {
+    border-bottom:  1px solid #DBD8D7;
   }
  }
