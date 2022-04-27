@@ -1,0 +1,105 @@
+
+@media (min-width: 800px) {
+#menu {
+  display: none;
+}
+
+header {
+  background-color: #3E3C3C;
+}
+header nav ul {
+   padding: 1rem 9rem;
+}
+
+  .desktop-menu{
+    display:inline;
+    flex 1;
+  }
+  #logo {
+    flex: 10;
+  }
+
+  #f-illustration {
+    display: none;
+  }
+
+   #start {
+    display: flex;
+  }
+  #start ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #work {
+    display: grid;
+    grid-template: 1fr 1fr 1fr  /1fr 1fr 1fr ;
+  }
+  #item1{
+    grid-column: 1 /  span 3;
+  }
+
+  #about {
+    background: #262626;
+    padding: 10rem 0rem;
+
+  }
+  #illustration {
+    display: none;
+  }
+
+  #d-illustration {
+    display: inline-block;
+
+  }
+  #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 0;
+  }
+
+  .about-head{
+    display: flex;
+  }
+  .description {
+    margin-left: 7rem;
+    padding: 0;
+  }
+  #about-title {
+    text-align:left;
+  }
+  hr {
+    width: 80%;
+    margin: 5rem 7rem ;
+  }
+
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+  .contact p {
+    margin-left: 15rem;
+
+  }
+
+  .contact-description,.contact-form {
+    flex: 1;
+  }
+
+
+#social-links {
+  justify-content:flex-start;
+  margin-left: 3rem;
+}
+
+#contact-button {
+  margin-left: 3rem;
+}
+  #end {
+    display: none;
+  }
+
+  input {
+    border-bottom:  1px solid #DBD8D7;
+  }
+ }
