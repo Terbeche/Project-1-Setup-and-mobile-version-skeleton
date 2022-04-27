@@ -379,6 +379,7 @@ textarea {
 
   #about {
     background: #262626;
+    padding: 10rem 0rem;
 
   }
   #illustration {
@@ -393,10 +394,21 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-padding-bottom: 10rem;:
+    margin-top: 0;
   }
 
   .about-head{
     display: flex;
+  }
+  .description {
+    margin-left: 7rem;
+    padding: 0;
+  }
+  #about-title {
+    text-align:left;
+  }
+  hr {
+    width: 80%;
+    margin: 5rem 7rem ;
   }
  }
