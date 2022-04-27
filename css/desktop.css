@@ -1,8 +1,5 @@
 
-@media (min-width: 800px) {
-#menu {
-  display: none;
-}
+@media (min-width: 768px) {
 
 header {
   background-color: #3E3C3C;
@@ -15,17 +12,15 @@ header nav ul {
     display:inline;
     flex 1;
   }
+
   #logo {
     flex: 10;
   }
 
-  #f-illustration {
-    display: none;
-  }
-
-   #start {
+  #start {
     display: flex;
   }
+
   #start ul {
     display: flex;
     flex-direction: column;
@@ -48,10 +43,12 @@ h1{
   }
   #work {
     display: grid;
-    grid-template: 1fr 1fr 1fr  /1fr 1fr 1fr ;
+    grid-template: 1fr 30% 30%  /1fr 1fr 1fr ;
     margin: 0rem 5rem;
 
   }
+
+
   #item1{
     grid-column: 1 /  span 3;
     display: flex;
@@ -69,8 +66,17 @@ h1{
   margin-left: 2rem;
 
 }
-.card-item{
- height: 60%;
+
+#item2{
+  background-image: url("../images/desktop/Placeholder4.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.hide-me-on-desktop{
+  display: none;
 
 }
 
@@ -91,14 +97,12 @@ margin-right: 2rem;
 #first-project-button {
   margin: 1rem 0.5rem;
 }
+
   #about {
     background: #262626;
     padding: 10rem 0rem;
-    margin-top: 5rem;
+    margin-top: 15rem;
 
-  }
-  #illustration {
-    display: none;
   }
 
   #d-illustration {
@@ -146,14 +150,18 @@ margin-right: 2rem;
   margin-left: 3rem;
 }
 
+#social-links {
+  text-align: center;
+  margin-left: 55%;
+}
 #contact-button {
   margin-left: 3rem;
 }
-  #end {
-    display: none;
-  }
+
 
   input {
     border-bottom:  1px solid #DBD8D7;
   }
+
+
  }
