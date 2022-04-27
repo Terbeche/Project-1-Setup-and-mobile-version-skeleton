@@ -76,7 +76,7 @@ header nav ul {
   grid-template: 1fr 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%/100%;
 }
 
-#recent_work {
+#recent-work {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
