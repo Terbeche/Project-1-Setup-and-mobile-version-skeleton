@@ -351,3 +351,52 @@ textarea {
   padding: 1rem;
   border: none;
 }
+#d-illustration {
+  display: none;
+}
+
+
+@media (min-width: 800px) {
+  #f-illustration {
+    display: none;
+  }
+
+   #start {
+    display: flex;
+  }
+  #start ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #work {
+    display: grid;
+    grid-template: 1fr 1fr 1fr  /1fr 1fr 1fr ;
+  }
+
+  #item1{
+      grid-column: 1/4;
+  }
+
+  #about {
+    background: #262626;
+
+  }
+  #illustration {
+    display: none;
+  }
+
+  #d-illustration {
+    display: inline-block;
+
+  }
+  #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+padding-bottom: 10rem;:
+  }
+
+  .about-head{
+    display: flex;
+  }
+ }
