@@ -354,8 +354,31 @@ textarea {
   display: none;
 }
 
+.desktop-menu{
+  display: none;
+}
+
 
 @media (min-width: 800px) {
+#menu {
+  display: none;
+}
+
+header {
+  background-color: #3E3C3C;
+}
+header nav ul {
+   padding: 1rem 9rem;
+}
+
+  .desktop-menu{
+    display:inline;
+    flex 1;
+  }
+  #logo {
+    flex: 10;
+  }
+
   #f-illustration {
     display: none;
   }
