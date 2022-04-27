@@ -29,18 +29,72 @@ header nav ul {
   #start ul {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    margin-left: 3rem;
+  }
+h1{
+  font-size: 72px;
+
+}
+  .header-content{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header-description{
+  align-self: center;
+  margin-left: 5rem;
+
   }
   #work {
     display: grid;
     grid-template: 1fr 1fr 1fr  /1fr 1fr 1fr ;
+    margin: 0rem 5rem;
+
   }
   #item1{
     grid-column: 1 /  span 3;
+    display: flex;
   }
+  .item1-first-part {
+    display: flex;
+    margin-bottom: 8rem;
 
+  }
+.item1-second-part {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.item1-second-part-content {
+  margin-left: 2rem;
+
+}
+.card-item{
+ height: 60%;
+
+}
+
+#recent-work {
+  font-size: 40px;
+color: #091E42;
+padding: 0;
+margin: 0;
+margin-right: 2rem;
+}
+
+#recent-work-hr {
+  width: 70%;
+  margin: 0;
+  align-self: center;
+}
+
+#first-project-button {
+  margin: 1rem 0.5rem;
+}
   #about {
     background: #262626;
     padding: 10rem 0rem;
+    margin-top: 5rem;
 
   }
   #illustration {
