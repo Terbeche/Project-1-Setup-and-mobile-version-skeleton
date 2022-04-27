@@ -74,7 +74,6 @@ header nav ul {
 #work {
   display: grid;
   grid-template: 1fr 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%/100%;
-
 }
 
 #recent_work {
@@ -199,9 +198,11 @@ header nav ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #placeholder {
   width: 100%;
 }
+
 #about {
   background-color: #000;
   margin-top: 300px;
@@ -296,7 +297,7 @@ hr {
 }
 
 .contact {
-   text-align: center;
+  text-align: center;
   margin-top: 5em;
 }
 
@@ -354,10 +355,11 @@ textarea {
   padding: 1rem;
   border: none;
 }
-#d-illustration {
+
+.d-illustration {
   display: none;
 }
 
-.desktop-menu{
+.desktop-menu {
   display: none;
 }
