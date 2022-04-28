@@ -8,6 +8,11 @@
     padding: 1rem 9rem;
   }
 
+  .header-content ul {
+    margin-top: 4rem;
+  }
+
+
   .desktop-menu {
     display: inline;
     flex: 1;
@@ -19,6 +24,7 @@
 
   #start {
     display: flex;
+    background: #1C1A19;
   }
 
   #start ul {
@@ -158,7 +164,7 @@
   }
 
 
-  #name {
+  /* #name {
   animation-duration: 3s;
   animation-name: name-slide;
 }
@@ -173,5 +179,5 @@
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
 }
