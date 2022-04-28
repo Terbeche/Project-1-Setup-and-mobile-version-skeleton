@@ -145,8 +145,7 @@
   }
 
   #social-links {
-    justify-content: flex-start;
-    margin-left: 55%;
+    align-self: center;
   }
 
   #contact-button {
