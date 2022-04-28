@@ -76,6 +76,10 @@
     margin-left: 2rem;
   }
 
+.item {
+   height: 90%;
+  width: 90%;
+}
   #item2 {
     background-image: url("../images/desktop/Placeholder4.svg");
     background-repeat: no-repeat;
@@ -119,8 +123,8 @@
 
   #about {
     background: #262626;
-    padding: 10rem 0;
-    margin-top: 15rem;
+    padding: 10rem 0rem;
+    margin-top: 23rem;
   }
 
   .d-illustration {
