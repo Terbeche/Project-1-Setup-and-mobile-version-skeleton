@@ -156,4 +156,11 @@
   input {
     border-bottom: 1px solid #dbd8d7;
   }
+
+
+  .item {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 }
