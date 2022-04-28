@@ -82,6 +82,18 @@
     background-size: cover;
   }
 
+  #item3,#item6 {
+    background-image: url("../images/desktop/Placeholder2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #item4,#item7 {
+    background-image: url("../images/desktop/Placeholder3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .hide-me-on-desktop {
     display: none;
   }
