@@ -73,7 +73,21 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
+}
+
+.header-content {
+    padding: 1rem 1rem 5rem 1rem;
+
+}
+
+#f-illustration {
+  position: absolute;
+  margin-top: 60%;
+  margin-left: 60%;
+  margin-bottom: 0px;
+  float: right;
+
 }
 
 #work {
@@ -212,6 +226,7 @@ Height: 48px;
 #about {
   background-color: #000;
   margin: 13rem 0 0 0;
+  padding: 1rem;
 }
 
 #about-title {
