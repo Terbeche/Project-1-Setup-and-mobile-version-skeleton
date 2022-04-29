@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/desktop.css">
     <title>Setup and mobile version skeleton</title>
 </head>
 <body>
@@ -16,7 +16,11 @@
   <nav>
     <ul>
       <li id="logo"><a href="#"><img src="images/John-Doe.png" alt="Website logo"></a></li>
-      <li id ="menu"><a href="#"><img src="images/Icons/Menu.png" alt="Website menu"></a></li>
+      <li id ="menu" class="hide-me-on-desktop"><a href="#"><img src="images/Icons/Menu.png" alt="Website menu"></a></li>
+      <li class="desktop-menu" id="portfolio-icon"><a href="#"><img src="images/menu/Portfolio.png" alt="Website logo"></a></li>
+      <li class="desktop-menu" id ="about-icon"><a href="#"><img src="images/menu/About.png" alt="Website menu"></a></li>
+      <li class="desktop-menu" id="contact-icon"><a href="#"><img src="images/menu/Contact.png" alt="Website logo"></a></li>
+      <li class="desktop-menu" id ="email-icon"><a href="#"><img src="images/menu/Mail.png" alt="Website menu"></a></li>
     </ul>
   </nav>
 </header>
@@ -25,51 +29,67 @@
 
 
 <section id="start">
-  <div>
-  <h1>Hey There.
-I’m Alex</h1>
-  <h3>I’am a Software Developer</h3>
-  <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
-don’t hestiate to contact me.</p>
+  <div class="header-content">
+    <div class="header-description">
+      <h1>Hey There.<br>
+    I’m <span id="my-name">Mustapha</span></h1>
+      <h3>I’am a Software Developer</h3>
+      <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
+    don’t hestiate to contact me.</p>
 
-  <ul >
-    <li><a href="https://github.com/Terbeche"><img src="images/Icons/GitHub.png" alt=""></a></li>
-    <li><a href="https://www.linkedin.com/in/mustapha-terbeche/"><img src="images/Icons/Linkedin.png" alt=""></a></li>
-    <li><a href="#"><img src="images/Icons/Angelist.png" alt=""></a></li>
-    <li><a href="https://twitter.com/Terbech_Mostefa"><img src="images/Icons/Twitter.png" alt=""></a></li>
-    <li><a href="#"><img src="images/Icons/Medium.png" alt=""></a></li>
-  </ul>
+    </div>
+    <ul >
+      <li><a href="https://github.com/Terbeche"><img src="images/Icons/GitHub.png" alt=""></a></li>
+      <li><a href="https://www.linkedin.com/in/mustapha-terbeche/"><img src="images/Icons/Linkedin.png" alt=""></a></li>
+      <li><a href="#"><img src="images/Icons/Angelist.png" alt=""></a></li>
+      <li><a href="https://twitter.com/Terbech_Mostefa"><img src="images/Icons/Twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="images/Icons/Medium.png" alt=""></a></li>
+    </ul>
 </div>
-
-  <img id="f-illustration" src="images/illustration-header-mobile.png" alt="the illustration image">
+  <img id="f-illustration" class="hide-me-on-desktop" src="images/illustration-header-mobile.svg" alt="the illustration image">
+  <img class="d-illustration" src="images/desktop/header.svg" alt="the illustration image">
 
 </section>
 
 
 <section id="work">
   <div class="item" id="item1">
-    <h2 id="recent_work">My Recent Works</h2>
-    <hr>
-    <img id="placeholder" src="images/Placeholder.png" alt="">
-  <h3 id="post-stories">Multi-Post Stories</h3>
-  <p class="card-description" id="first-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
-     has been the industry's standard dummy text ever since the 1500s, when an unknown
-      printer took a standard dummy text.</p>
-      <div class="skills">
-        <button  class="first-button" type="button" name="button">css</button>
-        <button  class="first-button"  type="button" name="button">html</button>
-        <button  class="first-button" type="button" name="button">bootstrap</button>
-        <button  class="first-button" type="button" name="button">Ruby</button>
-      </div>
 
-  <button id="first-project-button" class="project-button" type="button" name="button">See Project</button>
+<div class="item1-first-part">
+  <h2 id="recent-work">My Recent Works</h2>
+  <hr id="recent-work-hr">
+</div>
+
+
+<div class="item1-second-part">
+  <img id="placeholder" src="images/desktop/Placeholder.svg" alt="">
+
+  <div class="item1-second-part-content">
+    <h3 id="post-stories">Multi-Post Stories</h3>
+    <p class="card-description" id="first-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+       has been the industry's standard dummy text ever since the 1500s, when an unknown
+        printer took a standard dummy text.</p>
+        <div class="skills">
+          <button  class="first-button" type="button" name="button">css</button>
+          <button  class="first-button"  type="button" name="button">html</button>
+          <button  class="first-button" type="button" name="button">bootstrap</button>
+          <button  class="first-button" type="button" name="button">Ruby</button>
+        </div>
+    <button id="first-project-button" class="project-button" type="button" name="button">See Project</button>
+
+  </div>
+  </div>
+
+
+
+
   </div>
 
   <div class="item card-item" id="item2">
-    <h3 class="card-title">Profesional Art Printing Data</h3>
-    <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+    <h3 class="card-title hide-me-on-desktop">Profesional Art Printing Data</h3>
+    <p class="card-description hide-me-on-desktop">A daily selection of privately personalized reads; no accounts or sign-ups required.
        has been the industry's standard</p>
-       <div class="skills">
+       <div class="skills hide-me-on-desktop">
 
        <button class="read-button" type="button" name="button">html</button>
        <button class="read-button" type="button" name="button">bootstrap</button>
@@ -79,7 +99,7 @@ don’t hestiate to contact me.</p>
   </div>
 
     <div class="item card-item" id="item3">
-      <h3 class="card-title">Profesional Art Printing Data</h3>
+      <h3 class="card-title">Data Dashboard Healthcare</h3>
       <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
          has been the industry's standard</p>
          <div class="skills">
@@ -88,10 +108,10 @@ don’t hestiate to contact me.</p>
          <button class="read-button" type="button" name="button">bootstrap</button>
          <button  class="read-button" type="button" name="button">Ruby</button>
        </div>
-         <button  class="project-button" type="button" name="button">See Project</button>
+         <button  class="project-button hide-me-on-desktop" type="button" name="button">See Project</button>
     </div>
       <div class="item card-item" id="item4">
-        <h3 class="card-title">Profesional Art Printing Data</h3>
+        <h3 class="card-title">Website Portfolio</h3>
         <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
            has been the industry's standard</p>
            <div class="skills">
@@ -100,7 +120,7 @@ don’t hestiate to contact me.</p>
            <button class="read-button" type="button" name="button">bootstrap</button>
            <button  class="read-button" type="button" name="button">Ruby</button>
          </div>
-           <button class="project-button" type="button" name="button">See Project</button>
+           <button class="project-button hide-me-on-desktop" type="button" name="button">See Project</button>
       </div>
         <div class="item card-item" id="item5">
           <h3 class="card-title">Profesional Art Printing Data</h3>
@@ -112,10 +132,10 @@ don’t hestiate to contact me.</p>
              <button class="read-button" type="button" name="button">bootstrap</button>
              <button  class="read-button" type="button" name="button">Ruby</button>
            </div>
-             <button class="project-button" type="button" name="button">See Project</button>
+             <button class="project-button hide-me-on-desktop" type="button" name="button">See Project</button>
         </div>
           <div class="item card-item" id="item6">
-            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <h3 class="card-title">Data Dashboard Healthcare</h3>
             <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
                has been the industry's standard</p>
                <div class="skills">
@@ -124,103 +144,136 @@ don’t hestiate to contact me.</p>
                <button class="read-button" type="button" name="button">bootstrap</button>
                <button  class="read-button" type="button" name="button">Ruby</button>
              </div>
-               <button class="project-button" type="button" name="button">See Project</button>
+               <button class="project-button hide-me-on-desktop" type="button" name="button">See Project</button>
+          </div>
+          <div class="item card-item" id="item7">
+            <h3 class="card-title">Website Portfolio</h3>
+            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+               has been the industry's standard</p>
+               <div class="skills">
+
+               <button class="read-button" type="button" name="button">html</button>
+               <button class="read-button" type="button" name="button">bootstrap</button>
+               <button  class="read-button" type="button" name="button">Ruby</button>
+             </div>
+            <button class="project-button hide-me-on-desktop" type="button" name="button">See Project</button>
           </div>
 </section>
 
 
 <section id="about">
-  <h2 id="about-title">About me</h2>
-  <p class="card-description" id="about-description">Hello I’m a software developer! I can help you build a product , feature or
-     website Look through some of my work and experience! If you like what you see
-     and have a project you need coded, don’t hestiate to contact me.</p>
-    <div >
-       <button class="resume-button project-button" type="button" name="button">Get My Resume</button>
-    </div>
-     <img id="illustration" src="images/about-me.png" alt="">
+<div class="about-head">
+  <div class="description">
+    <h2 id="about-title">About me</h2>
+    <p class="card-description" id="about-description">Hello I’m a software developer! I can help you build a product , feature or
+       website Look through some of my work and experience! If you like what you see
+       and have a project you need coded, don’t hestiate to contact me.</p>
+      <div >
+         <button class="resume-button project-button" type="button" name="button">Get My Resume</button>
+      </div>
+  </div>
+<div class="illustration">
+  <img id="illustration" class="hide-me-on-desktop" src="images/about-me.png" alt="">
+  <img class="d-illustration" src="images/desktop/about-me.svg" alt="">
+</div>
+</div>
+
+
+
+
      <hr/>
 
 <div id="skills">
-     <ul>
-       <li id="language" class="about-title">Language</li>
-       <li>Javascript</li>
-       <li>Ruby</li>
-       <li>Htm</li>
-       <li>Css</li>
-     </ul>
+    <ul>
+      <li id="language" class="about-title">Language</li>
+      <li>Javascript</li>
+      <li>Ruby</li>
+      <li>Htm</li>
+      <li>Css</li>
+    </ul>
 
-     <ul>
-       <li id="framework" class="about-title">Frameworks</li>
-       <li>Bootstrap</li>
-       <li>Ruby on Rails</li>
-       <li>RSPec</li>
-       <li>CapyBara</li>
-       <li>Selenium</li>
-     </ul>
+  <ul>
+    <li id="framework" class="about-title">Frameworks</li>
+    <li>Bootstrap</li>
+    <li>Ruby on Rails</li>
+    <li>RSPec</li>
+    <li>CapyBara</li>
+    <li>Selenium</li>
+  </ul>
 
-     <ul>
-       <li id="skill" class="about-title">Skills</li>
-       <li>Codekit</li>
-       <li>Github</li>
-       <li>Codepen</li>
-       <li>Gitlab</li>
-       <li>Terminal</li>
-     </ul>
+      <ul>
+        <li id="skill" class="about-title">Skills</li>
+        <li>Codekit</li>
+        <li>Github</li>
+        <li>Codepen</li>
+        <li>Gitlab</li>
+        <li>Terminal</li>
+      </ul>
+
    </div>
    </section>
 
-     <div class="contact">
-<p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-<form action="https://formspree.io/f/mzbokdyd"  method="post" id="form">
-<fieldset>
-  <input type="text" id="name" placeholder="Full Name" maxlength="30" required>
-  <input type="email" id="email" placeholder="Email Address" required>
-  <textarea name="message" id="message" cols="30" rows="4" maxlength="500" required>Enter Text Here</textarea>
-</fieldset>
+  <div class="contact">
 
-  <button id="contact-button" class="resume-button project-button"  type="submit" name="button">Get in touch</button>
-</form>
+       <div class="contact-description">
+         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
 
-<hr id="footer-hr">
+       </div>
 
-<ul id="social-links">
-            <li class="social-link">
-              <a  href="https://github.com/Terbeche" target="_blank"  rel="noopener noreferrer">
-                <i class="fab fa-github-square"></i>
+       <div class="contact-form">
 
-              </a>
-            </li>
+          <form action="https://formspree.io/f/mzbokdyd"  method="post" id="form">
+            <fieldset>
+              <input type="text" id="name" placeholder="Full Name" maxlength="30" required>
+              <input type="email" id="email" placeholder="Email Address" required>
+              <textarea name="message" id="message" cols="30" rows="4" maxlength="500" required>Enter Text Here</textarea>
+            </fieldset>
 
-            <li class="contact-link">
-              <a  href="https://www.linkedin.com/in/mustapha-terbeche/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
+            <button id="contact-button" class="resume-button project-button"  type="submit" name="button">Get in touch</button>
+          </form>
+</div>
+ </div>
+          <hr id="footer-hr">
 
-            <li class="contact-link">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-angellist"></i>
 
-              </a>
-            </li>
 
-            <li class="contact-link">
-              <a href="https://twitter.com/Terbech_Mostefa" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-twitter-square"></i>
 
-              </a>
-            </li>
+  <ul id="social-links">
+      <li class="social-link">
+        <a  href="https://github.com/Terbeche" target="_blank"  rel="noopener noreferrer">
+          <img src="images/f-icons/GitHub.svg" alt="">
 
-            <li class="contact-link">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-medium"></i>
+        </a>
+      </li>
 
-              </a>
-            </li>
-          </ul>
-          <hr id="end">
+      <li class="contact-link">
+        <a  href="https://www.linkedin.com/in/mustapha-terbeche/" target="_blank" rel="noopener noreferrer">
+          <img src="images/f-icons/Linkedin.svg" alt="">
 
-     </div>
+        </a>
+      </li>
+
+      <li class="contact-link">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="images/f-icons/Angelist.svg" alt="">
+
+        </a>
+      </li>
+
+      <li class="contact-link">
+
+        <a href="https://twitter.com/Terbech_Mostefa" target="_blank" rel="noopener noreferrer">
+          <img src="images/f-icons/Twitter.svg" alt="">
+        </a>
+      </li>
+
+      <li class="contact-link">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="images/f-icons/Medium.svg" alt="">
+        </a>
+      </li>
+    </ul>
+       <hr id="end" class="hide-me-on-desktop">
 </div>
 
 </body>

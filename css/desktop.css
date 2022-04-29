@@ -1,0 +1,206 @@
+
+@media (min-width: 768px) {
+  header {
+    background-color: #3e3c3c;
+  }
+
+  header nav ul {
+    padding: 1rem 9rem;
+  }
+
+  .header-content ul {
+    margin-top: 4rem;
+  }
+
+  .desktop-menu {
+    display: inline;
+    flex: 1;
+  }
+
+  #logo {
+    flex: 10;
+  }
+
+  #email-icon {
+    margin-top: 0.5rem;
+  }
+
+  #start {
+    display: flex;
+    background: #1c1a19;
+  }
+
+  #start ul {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 3rem;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header-description {
+    align-self: center;
+    margin-left: 5rem;
+  }
+
+  #work {
+    display: grid;
+    grid-template: 1fr 35% 35%  /1fr 1fr 1fr;
+    margin: 0 5rem;
+  }
+
+  #item1 {
+    grid-column: 1 /  span 3;
+    display: flex;
+  }
+
+  .item1-first-part {
+    display: flex;
+    margin-bottom: 8rem;
+  }
+
+  .item1-second-part {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .item1-second-part-content {
+    margin-left: 2rem;
+  }
+
+  .item {
+    margin: 1rem 0.75rem;
+  }
+
+  #item2 {
+    background-image: url("../images/desktop/Placeholder4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #item3,
+  #item6 {
+    background-image: url("../images/desktop/Placeholder2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #item4,
+  #item7 {
+    background-image: url("../images/desktop/Placeholder3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hide-me-on-desktop {
+    display: none;
+  }
+
+  #recent-work {
+    font-size: 40px;
+    color: #091e42;
+    padding: 0;
+    margin: 0;
+    margin-right: 2rem;
+  }
+
+  #recent-work-hr {
+    width: 70%;
+    margin: 0;
+    align-self: center;
+  }
+
+  #first-project-button {
+    margin: 1rem 0.5rem;
+    padding: 12px;
+  }
+
+  #about {
+    background: #262626;
+    padding: 10rem 0;
+    margin-top: 23rem;
+  }
+
+  .d-illustration {
+    display: inline-block;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+
+  .about-head {
+    display: flex;
+  }
+
+  .description {
+    margin-left: 7rem;
+    padding: 0;
+  }
+
+  #about-title {
+    text-align: left;
+  }
+
+  hr {
+    width: 80%;
+    margin: 5rem 7rem;
+  }
+
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+
+  .contact p {
+    margin-left: 9rem;
+  }
+
+  .contact-description {
+    flex: 1;
+  }
+
+  .contact-form {
+    flex: 1.5;
+  }
+
+  #social-links {
+    align-self: center;
+  }
+
+  #contact-button {
+    margin-left: 3rem;
+  }
+
+  input {
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  /* #my-name {
+  animation-duration: 3s;
+  animation-name: name-slide;
+}
+
+@keyframes name-slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+}
