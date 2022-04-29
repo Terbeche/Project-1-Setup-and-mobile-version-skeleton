@@ -53,7 +53,7 @@
 
   #work {
     display: grid;
-    grid-template: 1fr 30% 30%  /1fr 1fr 1fr;
+    grid-template: 1fr 35% 35%  /1fr 1fr 1fr;
     margin: 0 5rem;
   }
 
@@ -76,9 +76,8 @@
     margin-left: 2rem;
   }
 
-.item {
-   height: 95%;
-  width: 90%;
+  .item {
+    margin: 1rem 0.75rem;
 }
   #item2 {
     background-image: url("../images/desktop/Placeholder4.svg");
