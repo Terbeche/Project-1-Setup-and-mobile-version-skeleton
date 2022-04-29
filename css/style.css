@@ -12,6 +12,7 @@ body {
 
 button {
   border : none;
+  padding: 10px;
 }
 
 .container {
