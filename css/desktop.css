@@ -162,12 +162,14 @@
   }
 
   .contact p {
-    margin-left: 15rem;
+    margin-left: 9rem;
   }
 
-  .contact-description,
+  .contact-description{
+    flex:1
+  }
   .contact-form {
-    flex: 1;
+    flex: 1.5;
   }
 
   #social-links {
