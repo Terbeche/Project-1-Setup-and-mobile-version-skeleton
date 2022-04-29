@@ -28,7 +28,7 @@ Here is what the page web looks like:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Terbeche/Project-1-Setup-and-mobile-version-skeleton/issues/5).
 
 ## Show your support
 
