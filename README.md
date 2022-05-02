@@ -1,6 +1,6 @@
 # Project-1-Setup-and-mobile-version-skeleton
 
-> This is the project of day03/week01/module01
+>This is the project of day03/week01/module01
 
 >We are building the first 2 sections of the mobile website using a predefined figma template .
 Here is what the page web looks like:
@@ -12,6 +12,7 @@ Here is what the page web looks like:
 
 
 ## Live Demo (if available)
+
 
 [Live Demo Link](https://terbeche.github.io/Project-1-Setup-and-mobile-version-skeleton/)
 
