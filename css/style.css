@@ -25,7 +25,13 @@ button {
   margin-bottom: 80px;
   display: flex;
   padding: 10px;
-}
+  background: #1c1a19;
+  background-image: url("../images/illustration-header-mobile.svg");
+  background-repeat: no-repeat;
+  background-size:35%;
+  background-position: right bottom;
+  height: 40rem;
+  }
 
 h1 {
   font-family: 'Crete Round', sans-serif;
@@ -80,6 +86,7 @@ header nav ul {
 .header-content {
   padding: 1rem 1rem 5rem 1rem;
 }
+
 
 #f-illustration {
   position: absolute;
@@ -169,8 +176,8 @@ header nav ul {
   color: #fff;
   background: #ff6b00;
   width: 100%;
-  height: 48px;
-  padding: 6px;
+  max-height: 96px;
+  padding: 0.375rem;
 }
 
 .project-button:enabled {
@@ -206,6 +213,7 @@ header nav ul {
   margin: 10px;
   justify-content: flex-end;
 }
+
 
 #item2,
 #item3,
@@ -243,6 +251,14 @@ header nav ul {
   color: #f4f5f7;
 }
 
+.about-content-2 {
+  padding-top: 0;
+}
+
+.about-head {
+  display: flex;
+  flex-direction: column;
+}
 .about-title {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
@@ -288,7 +304,7 @@ ul li {
 
 hr {
   width: 70%;
-  margin: 0 15% 20px 15%;
+  margin: 0 15% 1.25rem 15%;
 }
 
 #end {
