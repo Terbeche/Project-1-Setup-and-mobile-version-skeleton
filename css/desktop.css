@@ -26,8 +26,12 @@
   }
 
   #start {
-    display: flex;
     background: #1c1a19;
+    background-image: url("../images/desktop/header.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    height: 55rem;
   }
 
   #start ul {
@@ -44,6 +48,11 @@
   .header-content {
     display: flex;
     flex-direction: row-reverse;
+    flex: 1;
+  }
+
+  .header-content-2 {
+    flex: 1;
   }
 
   .header-description {
@@ -54,7 +63,7 @@
   #work {
     display: grid;
     grid-template: 1fr 35% 35%  /1fr 1fr 1fr;
-    margin: 0 5rem;
+    margin: 0 1rem;
   }
 
   #item1 {
@@ -142,11 +151,22 @@
 
   .about-head {
     display: flex;
+    flex-direction: row;
+    background-image: url("../images/desktop/about-me.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    height: 25rem;
   }
 
   .description {
     margin-left: 7rem;
     padding: 0;
+    flex: 1;
+  }
+
+  .about-content-2 {
+    flex: 1;
   }
 
   #about-title {
