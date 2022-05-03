@@ -29,10 +29,9 @@
     background: #1c1a19;
     background-image: url("../images/desktop/header.svg");
     background-repeat: no-repeat;
-    background-size:50%;
+    background-size: 50%;
     background-position: right;
     height: 55rem;
-
   }
 
   #start ul {
@@ -51,9 +50,11 @@
     flex-direction: row-reverse;
     flex: 1;
   }
-.header-content-2 {
-  flex: 1;
-}
+
+  .header-content-2 {
+    flex: 1;
+  }
+
   .header-description {
     align-self: center;
     margin-left: 5rem;
@@ -83,7 +84,6 @@
   .item1-second-part-content {
     margin-left: 2rem;
   }
-
 
   .item {
     margin: 1rem 0.75rem;
@@ -136,7 +136,6 @@
     background: #262626;
     padding: 10rem 0;
     margin-top: 23rem;
-
   }
 
   .d-illustration {
@@ -155,10 +154,9 @@
     flex-direction: row;
     background-image: url("../images/desktop/about-me.svg");
     background-repeat: no-repeat;
-     background-size:50%;
+    background-size: 50%;
     background-position: right;
-     height: 25rem;
-
+    height: 25rem;
   }
 
   .description {
@@ -167,7 +165,7 @@
     flex: 1;
   }
 
-  .about-content-2{
+  .about-content-2 {
     flex: 1;
   }
 

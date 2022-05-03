@@ -25,13 +25,12 @@ button {
   margin-bottom: 80px;
   display: flex;
   padding: 10px;
-  background: #1c1a19;
   background-image: url("../images/illustration-header-mobile.svg");
   background-repeat: no-repeat;
-  background-size:35%;
+  background-size: 33%;
   background-position: right bottom;
   height: 40rem;
-  }
+}
 
 h1 {
   font-family: 'Crete Round', sans-serif;
@@ -86,7 +85,6 @@ header nav ul {
 .header-content {
   padding: 1rem 1rem 5rem 1rem;
 }
-
 
 #f-illustration {
   position: absolute;
@@ -214,7 +212,6 @@ header nav ul {
   justify-content: flex-end;
 }
 
-
 #item2,
 #item3,
 #item4,
@@ -259,6 +256,7 @@ header nav ul {
   display: flex;
   flex-direction: column;
 }
+
 .about-title {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
