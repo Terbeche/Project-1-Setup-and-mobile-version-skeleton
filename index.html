@@ -12,14 +12,19 @@
 <body>
 
 <header>
-
-  <nav>
+    <div id="overlay">
+      <img id="close-button" src="./images/Icons/close-icon.svg" alt="close button">
+      <a  class="menu-link" href="#work">Portoflio</a>
+      <a  class="menu-link" href="#about">About</a>
+      <a class="menu-link" href="#contact-link">Contact</a>
+    </div>
+  <nav id="nav">
     <ul>
       <li id="logo"><a href="#"><img src="images/John-Doe.png" alt="Website logo"></a></li>
       <li id ="menu" class="hide-me-on-desktop"><a href="#"><img src="images/Icons/Menu.png" alt="Website menu"></a></li>
-      <li class="desktop-menu" id="portfolio-icon"><a href="#"><img src="images/menu/Portfolio.png" alt="Website logo"></a></li>
-      <li class="desktop-menu" id ="about-icon"><a href="#"><img src="images/menu/About.png" alt="Website menu"></a></li>
-      <li class="desktop-menu" id="contact-icon"><a href="#"><img src="images/menu/Contact.png" alt="Website logo"></a></li>
+      <li class="desktop-menu" id="portfolio-icon"><a href="#work"><img src="images/menu/Portfolio.png" alt="Website logo"></a></li>
+      <li class="desktop-menu" id ="about-icon"><a href="#about"><img src="images/menu/About.png" alt="Website menu"></a></li>
+      <li class="desktop-menu" id="contact-icon"><a href="#contact-link"><img src="images/menu/Contact.png" alt="Website logo"></a></li>
       <li class="desktop-menu" id ="email-icon"><a href="#"><img src="images/menu/Mail.png" alt="Website menu"></a></li>
     </ul>
   </nav>
@@ -213,7 +218,7 @@
    </div>
    </section>
 
-  <div class="contact">
+  <div class="contact" id="contact-link">
 
        <div class="contact-description">
          <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -275,6 +280,6 @@
     </ul>
        <hr id="end" class="hide-me-on-desktop">
 </div>
-
+<script src="scripts.js"></script>
 </body>
 </html>
