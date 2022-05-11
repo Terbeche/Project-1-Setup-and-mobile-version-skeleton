@@ -10,6 +10,15 @@ body {
   flex-direction: column;
 }
 
+.popup-skills-items {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+}
+
 #popup-overlay {
   position: fixed;
   display: none;
@@ -41,19 +50,29 @@ body {
   border-radius: 16px;
   box-sizing: content-box;
 }
-#details-popup > img {
+
+#popup-container-2 > img {
   width: 100%;
 }
 
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
 #details-popup > div:nth-child(1) > h3 {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
-align-self: flex-start;
-margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  align-self: flex-start;
+  margin-top: 0;
 }
 
 #popup-close-button {
@@ -65,14 +84,16 @@ margin-top: 0;
 
 #popup-buttons {
   display: flex;
+  gap: 12px;
 }
-#popup-text-description{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
+
+#popup-text-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 #popup-header {
@@ -80,46 +101,46 @@ color: #344563;
   justify-content: space-between;
 }
 
-
-
-.link-icon{
-background: url(../images/Icons/icon-Export.svg);
-width: 24px;
-height: 24px;
-
-background-repeat: no-repeat;
-align-self: center;
-box-sizing: content-box;
-
+.link-icon {
+  background: url(../images/Icons/icon-Export.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  align-self: center;
+  box-sizing: content-box;
 }
 
-.github-icon{
+.github-icon {
   background: url(../images/Icons/icon-Github.svg);
   width: 24px;
-height: 24px;
-background-repeat: no-repeat;
-align-self: center;
-box-sizing: content-box;
-
-}
-#popupButton1{
-display: flex;
-color: white;
-background: #FF6B00;
-gap:12px;
-align-items: center;
-margin: 16px;
+  height: 24px;
+  background-repeat: no-repeat;
+  align-self: center;
+  box-sizing: content-box;
 }
 
+#popupButton1 {
+  display: flex;
+  color: white;
+  background: #ff6b00;
+  gap: 12px;
+  align-items: center;
+  margin: 0;
+  padding: 12px;
+  width: calc(100% - 135.672px);
+  justify-content: center;
+}
 
-#popupButton2{
-display: flex;
-color: white;
-background: #FF6B00;
-gap:12px;
-align-items: center;
-margin: 16px;
-
+#popupButton2 {
+  display: flex;
+  color: white;
+  background: #ff6b00;
+  gap: 12px;
+  align-items: center;
+  margin: 0;
+  padding: 12px;
+  width: calc(100% - 113.438px);
+  justify-content: center;
 }
 
 #overlay {
@@ -188,15 +209,6 @@ h1 {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-}
-
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 32px;
-  color: #fff5e1;
 }
 
 p {
@@ -302,15 +314,34 @@ header nav ul {
   margin: 10px;
 }
 
+#details-popup > ul {
+  margin-left: 0;
+}
+
+ul li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+#details-popup > ul > li {
+  color: black;
+}
+
 .read-button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
+  color: white;
   line-height: 20px;
-  color: #fff;
   background: rgba(255, 255, 255, 0.24);
-  margin: 10px;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  margin: 12px 0;
 }
 
 .project-button {
@@ -359,7 +390,6 @@ header nav ul {
   margin: 10px;
   justify-content: flex-end;
 }
-
 
 #item2,
 #item3,
@@ -417,15 +447,6 @@ header nav ul {
   padding-left: 10px;
 }
 
-ul li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-}
-
 #skills {
   display: flex;
   flex-direction: column;
@@ -477,6 +498,7 @@ hr {
 
 .skills {
   display: flex;
+  margin-left: 10px;
 }
 
 .contact {
