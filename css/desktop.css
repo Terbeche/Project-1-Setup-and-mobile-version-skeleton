@@ -4,12 +4,46 @@
     background-color: #3e3c3c;
   }
 
+  #details-popup {
+    max-width: 1156px;
+    margin: 112px auto;
+    max-height: 631px;
+  }
+
+  #details-popup > div:nth-child(1) > h3 {
+    margin: 0;
+  }
+
+  #popup-container-2 {
+    display: flex;
+    gap: 25px;
+  }
+
+  #popup-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   header nav ul {
     padding: 1rem 9rem;
   }
 
   .header-content ul {
     margin-top: 4rem;
+  }
+
+  #details-popup > ul {
+    margin-bottom: 40px;
+  }
+
+  #popup-text-description {
+    margin-top: 0;
+  }
+
+  #popup-container-2 > img {
+    width: 659px;
+    height: 448px;
   }
 
   .desktop-menu {
@@ -135,7 +169,7 @@
   #about {
     background: #262626;
     padding: 10rem 0;
-    margin-top: 23rem;
+    margin-top: 33rem;
   }
 
   .d-illustration {
