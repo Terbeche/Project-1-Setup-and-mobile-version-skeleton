@@ -35,10 +35,10 @@ body {
 }
 
 #details-popup {
-  position: fixed;
+  position: absolute;
   display: none;
   flex-direction: column;
-  height: 100%;
+  height: max-content;
   top: 0;
   left: 0;
   right: 0;
@@ -47,7 +47,6 @@ body {
   z-index: 3;
   background-color: white;
   margin: 16px;
-  border-radius: 16px;
   box-sizing: content-box;
 }
 
