@@ -1,4 +1,7 @@
 function showTheMenu() {
+  if (window.screen.width >= 768) {
+    return;
+  }
   document.getElementById('overlay').style.display = 'flex';
 }
 
@@ -35,7 +38,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -47,7 +50,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -59,7 +62,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -71,7 +74,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -83,7 +86,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -95,7 +98,7 @@ const projectsDetails = [
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'ruby'],
@@ -252,6 +255,11 @@ function showProjectDetailsPopup(i) {
   const projectDetailsPopup = document.createElement('div');
   projectDetailsPopup.id = 'details-popup';
   projectDetailsPopup.style.display = 'flex';
+  if (window.screen.width >= 768) {
+    projectDetailsPopup.style.top = `${window.pageYOffset + 77}px`;
+  } else {
+    projectDetailsPopup.style.top = `${window.pageYOffset + 16}px`;
+  }
   projectDetailsPopupContainer.appendChild(projectDetailsPopup);
 
   const popupHeader = document.createElement('div');
@@ -324,8 +332,28 @@ function showProjectDetailsPopup(i) {
 }
 
 const projectButtonElements = document.getElementsByClassName('project-button');
-for (let i = 0; i < projectButtonElements.length; i += 1) {
-  projectButtonElements[i].addEventListener('click', () => {
-    showProjectDetailsPopup(i);
-  });
+
+for (let i = 0, j = 0; i < projectButtonElements.length; i += 1) {
+  if (projectButtonElements[i].innerHTML === 'See Project') {
+    projectButtonElements[i].addEventListener('click', () => {
+      showProjectDetailsPopup(j);
+      j += 1;
+    });
+  }
 }
+
+const form = document.getElementById('form');
+const emailInput = document.getElementById('email');
+const formButton = document.querySelector('#contact-button');
+
+form.addEventListener('submit', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    formButton.setCustomValidity('email-id must be in lower case!');
+    formButton.reportValidity();
+    event.preventDefault();
+  }
+});
+
+emailInput.addEventListener('input', () => {
+  formButton.setCustomValidity('');
+});
