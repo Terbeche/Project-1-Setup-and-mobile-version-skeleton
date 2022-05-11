@@ -257,8 +257,7 @@ function showProjectDetailsPopup(i) {
   projectDetailsPopup.style.display = 'flex';
   if (window.screen.width >= 768) {
     projectDetailsPopup.style.top = `${window.pageYOffset + 77}px`;
-  }
-  else {
+  } else {
     projectDetailsPopup.style.top = `${window.pageYOffset + 16}px`;
   }
   projectDetailsPopupContainer.appendChild(projectDetailsPopup);
