@@ -329,3 +329,15 @@ for (let i = 0; i < projectButtonElements.length; i += 1) {
     showProjectDetailsPopup(i);
   });
 }
+
+const form = document.getElementById("form");
+const emailInput =  document.getElementById("email");
+
+form.addEventListener("submit", function (event) {
+  if (emailInput.value != emailInput.value.toLowerCase() ) {
+    email.setCustomValidity("I am expecting the e-mail to be in lowercase!");
+    email.reportValidity();
+    event.preventDefault();
+  }else{
+  }
+});
