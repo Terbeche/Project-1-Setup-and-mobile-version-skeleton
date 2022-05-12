@@ -345,6 +345,10 @@ for (let i = 0, j = 0; i < projectButtonElements.length; i += 1) {
 const form = document.getElementById('form');
 const emailInput = document.getElementById('email');
 const formButton = document.querySelector('#contact-button');
+const nameInput = document.getElementById('name');
+const feedbackInput = document.getElementById('message');
+let contactForm = { "name": "", "email":"", "feedbackMessage" : ""};
+
 
 form.addEventListener('submit', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
@@ -356,4 +360,18 @@ form.addEventListener('submit', (event) => {
 
 emailInput.addEventListener('input', () => {
   formButton.setCustomValidity('');
+  contactForm['email'] = emailInput.value;
+  localStorage.setItem('contactForm', JSON.stringify(contactForm));
 });
+
+nameInput.addEventListener('input', () => {
+  nameInput['name'] = nameInput.value;
+  localStorage.setItem('contactForm', JSON.stringify(contactForm));
+});
+feedbackInput.addEventListener('input', () => {
+  feedbackInput['feedbackMessage'] = feedbackInput.value;
+  localStorage.setItem('contactForm', JSON.stringify(contactForm));
+});
+
+let retreivedContactFormValues = JSON.parse(localStorage.getItem('contactForm'));
+emailInput.value =
