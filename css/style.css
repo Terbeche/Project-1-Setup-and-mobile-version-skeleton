@@ -10,11 +10,6 @@ body {
   flex-direction: column;
 }
 
-#logo {
-  text-decoration: none;
-  color: white;
-}
-
 .popup-skills-items {
   font-family: 'Poppins', sans-serif;
   font-style: normal;

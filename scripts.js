@@ -22,91 +22,90 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 
 const projectsDetails = [
   {
-    title: 'Math-Magicians',
+    title: 'Tonic',
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "Math magicians is a website for all fans of mathematics",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'react'],
-    link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
-    link_to_live_version: 'https://math-magicians-react-project.herokuapp.com/',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
   },
   {
-    title: 'To Do list',
+    title: 'Data Dashboard Healthcare',
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-    "This is a simple To-Do-List website in which you can add and remove tasks using local storage.",
-    long_description:
-    "This is a simple To-Do-List website in which you can add and remove tasks using local storage.",
-    technologies: ['html', 'css', 'react'],
-    link_to_Source: 'https://github.com/Terbeche/To--Do-List',
-    link_to_live_version: 'https://terbeche.github.io/To--Do-List/',
-  },
-  {
-    title: 'Leaderboard',
-    info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
-    description:
-      "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
-    long_description:
-      "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
-    technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://github.com/Terbeche/Leaderboard',
-    link_to_live_version: 'https://terbeche.github.io/Leaderboard/',
-  },
-  {
-    title: 'TV Show',
-    info: ['CANOPY', 'Back End Dev', '2015'],
-    featured_image: './images/project-snapshots/project1.png',
-    description:
-      "This is a website that displays a list of movies from an external API",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://github.com/Terbeche/Groupe-Capstone-API',
-    link_to_live_version: 'https://crystallinebutterfly.github.io/Group-Capstone-1/',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
   },
   {
-    title: 'E Learning Platform',
+    title: 'Data Dashboard Healthcare',
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "This is a E-learning-platform website for the FIRST CAPSTONE PROJECT of the microverse program representing an E-Learning platform.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://github.com/Terbeche/E-learning-platform',
-    link_to_live_version: 'https://terbeche.github.io/E-learning-platform/',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
   },
   {
-    title: 'Awesome books',
+    title: 'Website Protfolio ',
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "Awesome Books is a web application that let's add and remove books using local storage.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'javascript'],
-    link_to_Source: 'https://github.com/Terbeche/Awesome-Books-ES6',
-    link_to_live_version: 'https://terbeche.github.io/Awesome-Books/',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
   },
   {
-    title: 'To Do APP',
+    title: 'Profesional Art Printing Data More',
     info: ['CANOPY', 'Back End Dev', '2015'],
     featured_image: './images/project-snapshots/project1.png',
     description:
-      "React-To-Do-App is a Single Page App (SPA) that allows users to add and delete To-Do tasks. It was created following this tutorial with some additional changes",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     long_description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['html', 'css', 'react'],
-    link_to_Source: 'https://github.com/Terbeche/react-todo-app',
-    link_to_live_version: 'https://terbeche.github.io/react-todo-app/',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
+  },
+  {
+    title: 'Data Dashboard Healthcare',
+    info: ['CANOPY', 'Back End Dev', '2015'],
+    featured_image: './images/project-snapshots/project1.png',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    long_description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
+  },
+  {
+    title: 'Website Protfolio ',
+    info: ['CANOPY', 'Back End Dev', '2015'],
+    featured_image: './images/project-snapshots/project1.png',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    long_description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'ruby'],
+    link_to_Source: '#',
+    link_to_live_version: '#',
   },
 ];
-
 
 const firstItem = document.createElement('div');
 firstItem.id = 'item1';
@@ -306,23 +305,13 @@ function showProjectDetailsPopup(i) {
   const popupButtons = document.createElement('div');
   popupButtons.id = 'popup-buttons';
 
-  const popuplink1 = document.createElement('a');
-  popuplink1.href =  projectsDetails[i].link_to_live_version;
-
- 
   const popupButton1 = document.createElement('button');
   popupButton1.id = 'popupButton1';
-  popupButton1.textContent = 'See live'; 
+  popupButton1.textContent = 'See live';
   const popupButton1Icon = document.createElement('i');
   popupButton1Icon.classList.add('link-icon');
   popupButton1.appendChild(popupButton1Icon);
-
-  popuplink1.appendChild(popupButton1);
-  popupButtons.appendChild(popuplink1);
-
-
-  const popuplink2 = document.createElement('a');
-  popuplink1.href =  projectsDetails[i].link_to_Source;
+  popupButtons.appendChild(popupButton1);
 
   const popupButton2 = document.createElement('button');
   popupButton2.id = 'popupButton2';
@@ -330,9 +319,7 @@ function showProjectDetailsPopup(i) {
   const popupButton2Icon = document.createElement('i');
   popupButton2Icon.classList.add('github-icon');
   popupButton2.appendChild(popupButton2Icon);
-
-  popuplink2.appendChild(popupButton2);
-  popupButtons.appendChild(popuplink2);
+  popupButtons.appendChild(popupButton2);
 
   popupDescription.appendChild(popupButtons);
 
