@@ -10,6 +10,10 @@ body {
   flex-direction: column;
 }
 
+a {
+  text-decoration: none;
+}
+
 #logo {
   text-decoration: none;
   color: white;
@@ -115,7 +119,7 @@ h3 {
 }
 
 .github-icon {
-  background: url(../images/Icons/icon-Github.svg);
+  background: url(../images/Icons/icon-GitHub.svg);
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -131,7 +135,6 @@ h3 {
   align-items: center;
   margin: 0;
   padding: 12px;
-  width: calc(100% - 135.672px);
   justify-content: center;
 }
 
@@ -143,7 +146,6 @@ h3 {
   align-items: center;
   margin: 0;
   padding: 12px;
-  width: calc(100% - 113.438px);
   justify-content: center;
 }
 

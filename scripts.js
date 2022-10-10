@@ -230,6 +230,8 @@ for (let i = 0; i < projectsDetails.length - 1; i += 1) {
   seeProjectButton.name = 'button';
   seeProjectButton.textContent = 'See Project';
   seeProjectButton.classList.add('project-button');
+  seeProjectButton.classList.add('see-project-button');
+
   projectItem.appendChild(seeProjectButton);
 
   document.querySelector('#work').appendChild(projectItem);
@@ -322,7 +324,7 @@ function showProjectDetailsPopup(i) {
 
 
   const popuplink2 = document.createElement('a');
-  popuplink1.href =  projectsDetails[i].link_to_Source;
+  popuplink2.href =  projectsDetails[i].link_to_Source;
 
   const popupButton2 = document.createElement('button');
   popupButton2.id = 'popupButton2';
@@ -344,13 +346,13 @@ function showProjectDetailsPopup(i) {
   popupHeaderCloseButton.addEventListener('click', hideProjectDetailsPopup);
 }
 
-const projectButtonElements = document.getElementsByClassName('project-button');
+const projectButtonElements = document.getElementsByClassName('see-project-button');
 
-for (let i = 0, j = 0; i < projectButtonElements.length; i += 1) {
+for (let i = 0; i < projectButtonElements.length; i += 1) {
+
   if (projectButtonElements[i].innerHTML === 'See Project') {
     projectButtonElements[i].addEventListener('click', () => {
-      showProjectDetailsPopup(j);
-      j += 1;
+      showProjectDetailsPopup(i);
     });
   }
 }
